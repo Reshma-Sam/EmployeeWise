@@ -4,7 +4,7 @@ import "./App.css"
 import Login from "./Pages/Login";
 import UsersList from "./Pages/UsersList";
 import EditUser from "./Pages/EditUser";
-import { AuthProvider ,useAuth} from "./context/AuthContext";
+import { AuthProvider ,useAuth} from "./Context/AuthContext";
 import axios from "axios";
 
 const PrivateRoute = ({ children }) => {
